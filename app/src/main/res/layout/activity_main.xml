@@ -7,19 +7,6 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/PedirCita"
-        android:layout_width="287dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginBottom="50dp"
-        android:text="Pedir cita"
-        app:layout_constraintBottom_toTopOf="@+id/Ofertas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Inicio" />
-
-    <Button
         android:id="@+id/Ofertas"
         android:layout_width="295dp"
         android:layout_height="37dp"
@@ -68,4 +55,17 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PedirCita" />
+
+    <Button
+        android:id="@+id/PedirCita"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="50dp"
+        android:text="Pedir cita"
+        app:layout_constraintBottom_toTopOf="@+id/Ofertas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Inicio" />
 </android.support.constraint.ConstraintLayout>
