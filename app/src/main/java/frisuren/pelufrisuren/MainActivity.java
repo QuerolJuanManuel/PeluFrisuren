@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void PedirCita(View view){
-        Intent i=new Intent(this, calendario.class);
+    public void calendario(View view){
+        Intent i=new Intent(this, Calendario.class);
         startActivity(i);
     }
 }

@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".registro" />
         <activity android:name=".ofertas" />
-        <activity android:name=".Calendario"></activity>
+        <activity android:name=".Calendario" />
+        <activity android:name=".cita"></activity>
     </application>
 
 </manifest>
