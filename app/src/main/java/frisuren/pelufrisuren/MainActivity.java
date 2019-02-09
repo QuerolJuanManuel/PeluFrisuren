@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this, ofertas.class);
         startActivity(i);
     }
+
+    public void PedirCita(View view){
+        Intent i=new Intent(this, calendario.class);
+        startActivity(i);
+    }
 }
