@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PedirCita" />
+        app:layout_constraintTop_toBottomOf="@+id/cita" />
 
     <Button
         android:id="@+id/Inicio"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Iniciar sesion"
-        app:layout_constraintBottom_toTopOf="@+id/PedirCita"
+        app:layout_constraintBottom_toTopOf="@+id/cita"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.826"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         android:layout_marginBottom="50dp"
         android:onClick="registrarse"
         android:text="Registrase"
-        app:layout_constraintBottom_toTopOf="@+id/PedirCita"
+        app:layout_constraintBottom_toTopOf="@+id/cita"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Inicio"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,14 +56,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PedirCita" />
+        app:layout_constraintTop_toBottomOf="@+id/cita" />
 
     <Button
-        android:id="@+id/PedirCita"
+        android:id="@+id/cita"
         android:layout_width="287dp"
         android:layout_height="39dp"
         android:layout_marginTop="85dp"
         android:layout_marginBottom="50dp"
+        android:onClick="calendario"
         android:text="Pedir cita"
         app:layout_constraintBottom_toTopOf="@+id/Ofertas"
         app:layout_constraintEnd_toEndOf="parent"

@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this, ofertas.class);
         startActivity(i);
     }
+
+    public void calendario(View view){
+        Intent i=new Intent(this, Calendario.class);
+        startActivity(i);
+    }
 }

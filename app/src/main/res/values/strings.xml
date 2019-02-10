@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PeluFrisuren</string>
+    <string name="title_activity_pedir_cita">PedirCita</string>
+    <string name="dedo">toma dedo</string>
 </resources>

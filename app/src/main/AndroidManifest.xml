@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".registro" />
-        <activity android:name=".ofertas"></activity>
+        <activity android:name=".ofertas" />
+        <activity android:name=".Calendario" />
+        <activity android:name=".cita"></activity>
     </application>
 
 </manifest>
